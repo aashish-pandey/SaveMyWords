@@ -1,0 +1,55 @@
+.heading{
+  align-items: center;
+  text-align: center;
+}
+
+
+.addWordForm{
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.addWordForm input{
+  padding: 0.4rem;
+  font-size: medium;
+}
+
+#word{
+  width: 20rem;
+  margin: 0 0.5rem;
+}
+
+#meaning{
+  width: 40rem;
+}
+
+
+input[type='submit']{
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border: none;
+}
+
+input[type='submit']:hover{
+  font-size: large;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  width: 90vw;
+  text-align: center;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+
+.meaningcol{
+  width: 50vw;
+}
