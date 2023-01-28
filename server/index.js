@@ -14,7 +14,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 
-const dbURI = 'mongodb+srv://aashish:aashish@cluster0.epdenwt.mongodb.net/?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://aashish:<password>@cluster0.epdenwt.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(dbURI)
     .then(()=>
